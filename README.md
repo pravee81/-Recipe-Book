@@ -22,7 +22,7 @@ Main HTML file │── styles.css #
 CSS styles │── script.js # 
 JavaScript functionalities │── images/ # 
 
-👩‍💻 Author
+## 👩‍💻 Author
 Made with ❤️ by Praveena BN
 LinkedIn: [https://www.linkedin.com/in/praveena-bn/]
 
