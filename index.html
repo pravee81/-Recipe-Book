@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header class="head">
+        <h1 class="header">RECIPE BOOK</h1>
+        <input type="text" id="searchBar" placeholder="Search for a recipe..." onkeyup="searchRecipe()">
+    </header>
+    
+    <!-- Add Background Video Only for This Section -->
+    <section id="addRecipe" class="recipe-section">
+    <h3 class="recipe-title">ADD A NEW RECIPE</h3>
+    <video autoplay loop muted playsinline class="bg-video">
+        <source src="video/background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+        <div class="recipe-form">
+            <input type="text" id="recipeName" placeholder="Recipe Name">
+            <textarea id="ingredients" placeholder="Ingredients (comma-separated)"></textarea>
+            <textarea id="steps" placeholder="Preparation Steps"></textarea>
+            <input type="file" id="recipeImage">
+            <button onclick="addRecipe()">Add Recipe</button>
+        </div>
+    </section>
+    
+        <section id="recipeList">
+            <h3 class= "available">AVAILABLE RECIPES</h3>
+            <div id="recipesContainer"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
