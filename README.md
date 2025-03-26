@@ -22,6 +22,9 @@ Main HTML file │── styles.css #
 CSS styles │── script.js # 
 JavaScript functionalities │── images/ # 
 
+👩‍💻 Author
+Made with ❤️ by Praveena BN
+LinkedIn: [https://www.linkedin.com/in/praveena-bn/]
 
 ## 📜 How to Run the Project?
 1. **Download or Clone** the repository.
